@@ -1,2 +1,2 @@
 done: 
-	bash src/done.bash
+	bash src/done.sh
