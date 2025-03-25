@@ -1,0 +1,2 @@
+DELETE FROM 都道府県
+WHERE コード = '26'
