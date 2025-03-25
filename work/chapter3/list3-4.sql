@@ -1,0 +1,3 @@
+SELECT *
+FROM cashbook
+WHERE cash_out BETWEEN 500 AND 900
