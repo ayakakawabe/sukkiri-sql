@@ -1,0 +1,3 @@
+SELECT *
+FROM 家計簿
+ORDER BY 日付 DESC
