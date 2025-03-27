@@ -1,0 +1,30 @@
+-- 1
+SELECT *
+FROM 偶数
+UNION
+SELECT *
+FROM 奇数
+;
+-- 2
+SELECT *
+FROM 整数
+EXCEPT
+SELECT *
+FROM 偶数
+ORDER BY 値
+;
+-- 3
+SELECT *
+FROM 整数
+INTERSECT
+SELECT *
+FROM 偶数
+ORDER BY 値
+;
+-- 4
+SELECT *
+FROM 偶数
+INTERSECT
+SELECT *
+FROM 奇数
+;
